@@ -57,7 +57,7 @@ with requests.Session() as session_requests:
         headers=login_headers
     )
 
-    print("Loggin in...")
+    print("Logging in...")
 
     '''
     ====================================

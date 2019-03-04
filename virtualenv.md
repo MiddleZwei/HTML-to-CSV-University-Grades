@@ -1,13 +1,11 @@
 # How to install and activate virtual environment:
 
 ## Windows:
-- path_to_python.exe: ```where python```
-- path_to_current_folder: ```%cd%```
 
 ```
 virtualenv venv
 
-path_to_python.exe path_to_current_filder\venv\Scripts\activate
+.\venv\Scripts\activate
 ```
 
 Deactivate virtual environment:

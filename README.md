@@ -1,24 +1,26 @@
-# HTML-to-CSV-University-Grades
+# HTML-to-OtherFile-University-Grades
 
 Web scrape your grades out of the Dean's Office at PJATK. 
 The program will log in using credential you'll provide and will 
-transfer the grades to a .csv file.
+transfer the grades to .csv, .txt and so on.
 
 Make sure you use Python 3.x
+
+So far only Polish version of teh web-site is accessed
 
 # How to use it:
 
 Clone this repo:
 ```
-git clone https://github.com/MiddleZwei/HTML-to-CSV-University-Grades.git
+git clone https://github.com/MiddleZwei/HTML-to-OtherFile-University-Grades.git
 
-cd HTML-to-CSV-University-Grades
+cd HTML-to-OtherFile-University-Grades
 ```
 
 ## [Optional] Create a virtual environment
 I suggest to create a virtual environment first, but you can omit it and install packages globally if you want
 
-[How to create a virtual environment](https://github.com/MiddleZwei/HTML-to-CSV-University-Grades/virtualenv.md)
+[How to create a virtual environment](https://github.com/MiddleZwei/HTML-to-OtherFile-University-Grades/virtualenv.md)
 
 ## Argument descriptions
 - -u, --username: s number
@@ -27,17 +29,15 @@ I suggest to create a virtual environment first, but you can omit it and install
 
 ## Run in Windows' command prompt:
 
-- path_to_python.exe: ```where python```
-- path_to_current_folder: ```%cd%```
-
-Run these commands (tested in PowerShell):
+Run these commands:
 ```
 pip3 install -r requirements
 
-path_to_python.exe path_to_current_folder\webscraptable.py --username [sXXXXX] -p
+python .\webscraptable.py --username [sXXXXX] -p
 ```
 
-# Run in Linux's terminal
+## Run in Linux's terminal
+Run these commands:
 ```
 pip3 install -r requirements
 
