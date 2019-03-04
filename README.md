@@ -20,7 +20,7 @@ cd HTML-to-OtherFile-University-Grades
 ## [Optional] Create a virtual environment
 I suggest to create a virtual environment first, but you can omit it and install packages globally if you want
 
-[How to create a virtual environment](https://github.com/MiddleZwei/HTML-to-OtherFile-University-Grades/virtualenv.md)
+[How to create a virtual environment](https://github.com/MiddleZwei/HTML-to-OtherFile-University-Grades/blob/master/virtualenv.md)
 
 ## Argument descriptions
 - -u, --username: s number
