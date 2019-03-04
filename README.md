@@ -32,14 +32,14 @@ I suggest to create a virtual environment first, but you can omit it and install
 
 Run these commands (tested in PowerShell):
 ```
-pip install -r requirements
+pip3 install -r requirements
 
 path_to_python.exe path_to_current_folder\webscraptable.py --username [sXXXXX] -p
 ```
 
 # Run in Linux's terminal
 ```
-pip install -r requirements
+pip3 install -r requirements
 
 python3 webscraptable.py --username [sXXXXX] -p
 ```
